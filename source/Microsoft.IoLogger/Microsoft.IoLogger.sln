@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38BDE9C5-7ADF-4D74-9D91-3F0B7D599CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{66B087DC-9391-43D1-B619-FE47F111CE06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{F991BC21-CA44-400D-A508-8055DE0D707E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.IoLogger.Core", "src\Microsoft.IoLogger.Core\Microsoft.IoLogger.Core.csproj", "{27E1282E-5198-4007-BE96-0335E07ECA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CE7F0B54-820E-425A-B8FF-9BBEC9CA209A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{45196CD3-96A0-4349-A95A-7BDC7E75C3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.IoLogger.UnitTests.CodeCoverageTests", "tests\UnitTests\Microsoft.IoLogger.UnitTests.CodeCoverageTests\Microsoft.IoLogger.UnitTests.CodeCoverageTests.csproj", "{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{916479A0-9B24-47B4-9EE3-DAA36BAF817B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.IoLogger.Applications.SignalRServer", "src\applications\Microsoft.IoLogger.Applications.SignalRServer\Microsoft.IoLogger.Applications.SignalRServer.csproj", "{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E1282E-5198-4007-BE96-0335E07ECA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1282E-5198-4007-BE96-0335E07ECA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1282E-5198-4007-BE96-0335E07ECA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1282E-5198-4007-BE96-0335E07ECA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E1282E-5198-4007-BE96-0335E07ECA51} = {38BDE9C5-7ADF-4D74-9D91-3F0B7D599CDA}
+		{CE7F0B54-820E-425A-B8FF-9BBEC9CA209A} = {66B087DC-9391-43D1-B619-FE47F111CE06}
+		{45196CD3-96A0-4349-A95A-7BDC7E75C3AC} = {66B087DC-9391-43D1-B619-FE47F111CE06}
+		{CC5EB30D-C18A-4772-9D5E-7EEA86BA9748} = {CE7F0B54-820E-425A-B8FF-9BBEC9CA209A}
+		{916479A0-9B24-47B4-9EE3-DAA36BAF817B} = {38BDE9C5-7ADF-4D74-9D91-3F0B7D599CDA}
+		{33E19B5E-DAA8-4FD3-B1B0-06ADE5E10291} = {916479A0-9B24-47B4-9EE3-DAA36BAF817B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FB24B44-F031-40E1-AE5F-EB03A948DDAD}
+	EndGlobalSection
+EndGlobal
